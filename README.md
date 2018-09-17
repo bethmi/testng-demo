@@ -2,7 +2,7 @@ TestNG-Demo
 ---
 
 ## Introduction
-This is sample application to demonstrate the usage of TestNG.
+This is a sample application to demonstrate the usage of TestNG.
 
 
 ## Requirements
