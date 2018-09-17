@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Custom suite]" parallel="none">
+  <parameter name="additions" value="1000"/>
+  <parameter name="deductions" value="2000"/>
+  <test name="TestNGDemo(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="failure-test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.ng.EmployeeServiceImplTest">
+        <methods>
+          <include name="testGenerateBasicSalaryGeneratedException"/>
+        </methods>
+      </class> <!-- com.test.ng.EmployeeServiceImplTest -->
+    </classes>
+  </test> <!-- TestNGDemo(failed) -->
+</suite> <!-- Failed suite [Custom suite] -->

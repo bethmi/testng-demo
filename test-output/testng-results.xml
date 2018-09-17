@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Custom suite" duration-ms="31" started-at="2017-10-27T05:37:57Z" finished-at="2017-10-27T05:37:57Z">
+    <groups>
+    </groups>
+    <test name="TestNGDemo" duration-ms="31" started-at="2017-10-27T05:37:57Z" finished-at="2017-10-27T05:37:57Z">
+      <class name="com.test.ng.EmployeeServiceImplTest">
+        <test-method status="PASS" signature="testGenerateBasicSalaryFailure()[pri:0, instance:com.test.ng.EmployeeServiceImplTest@1ff8b8f]" name="testGenerateBasicSalaryFailure" duration-ms="9" started-at="2017-10-27T11:07:57Z" finished-at="2017-10-27T11:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateBasicSalaryFailure -->
+        <test-method status="PASS" signature="testGenerateBasicSalarySuccess()[pri:0, instance:com.test.ng.EmployeeServiceImplTest@1ff8b8f]" name="testGenerateBasicSalarySuccess" duration-ms="1" started-at="2017-10-27T11:07:57Z" finished-at="2017-10-27T11:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateBasicSalarySuccess -->
+        <test-method status="PASS" signature="testGrossSalaryCalculation()[pri:0, instance:com.test.ng.EmployeeServiceImplTest@1ff8b8f]" name="testGrossSalaryCalculation" duration-ms="5" started-at="2017-10-27T11:07:57Z" finished-at="2017-10-27T11:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrossSalaryCalculation -->
+      </class> <!-- com.test.ng.EmployeeServiceImplTest -->
+    </test> <!-- TestNGDemo -->
+  </suite> <!-- Custom suite -->
+</testng-results>
